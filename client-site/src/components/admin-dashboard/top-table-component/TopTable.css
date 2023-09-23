@@ -1,0 +1,60 @@
+.db-container {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    padding: 20px;
+    transition: all 0.3s ease;
+   
+    overflow-y:hidden;
+    margin: 0;
+    gap: 0;
+}
+
+.db-header {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+   
+    transition: all 0.3s ease;
+    padding: 10px;
+}
+.db-circle {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+}
+
+.db-circle svg {
+    width: 70%;
+    height: auto;
+}
+
+.db-rotate1 {
+    background-image: linear-gradient(to bottom, #D3FFE7, #EFFFF6);
+}
+
+.db-rotate2 {
+    background-image: linear-gradient(to bottom, #CAF1FF, #CDF4FF);
+}
+
+.db-rotate3 {
+    background-image: linear-gradient(to bottom, #FFA3CF, #FFD4F3);
+}
+
+.db-employees {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.db-text p {
+    margin: 5px;
+}
+.db-icon-pr {
+    color: white;
+}

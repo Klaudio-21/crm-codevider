@@ -1,0 +1,111 @@
+
+
+.employee-table-container {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+    margin: left 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    border-radius: 10px;
+    width: 1000px;
+}
+
+.employee-table {
+    background-color: rgb(255, 255, 255);
+    border: 0.5px solid #ddd;
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 7px;
+}
+
+.table-tr-employees td {
+   text-align: center;
+    background-color: rgb(255, 255, 255);
+    border-bottom: 0.5px solid #ddd;
+
+}
+
+
+.employees-edit-icon {
+    margin-right: 5 px;
+    color: rgba(12, 12, 12, 0.667);
+    font-size: 20px;
+
+}
+
+.employees-delete-icon {
+    color: rgba(12, 12, 12, 0.667);
+    font-size: 20px;
+}
+
+.employees-delete-icon:hover {
+    color: rgba(255, 0, 0, 0.603);
+    cursor: pointer;
+}
+
+.employees-edit-icon:hover {
+    color: rgba(54, 115, 150, 0.822);
+    cursor: pointer;
+}
+
+
+
+.employee-table th {
+    border-bottom: 1px solid #ddd;
+  padding-left: 5px;
+  padding: 5px;
+    text-align: center;
+
+
+}
+
+.title {
+    display: inline;
+    font-size: 20px;
+
+    margin-right: 150px;
+
+}
+
+.employee-pagination {
+    align-items: end;
+    display: flex;
+    justify-content: end;
+    margin-top: 5px;
+}
+
+
+.table-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.employees-filter-icon {
+    font-size: 20px;
+    margin-left: 450px;
+    cursor: pointer;
+    transition: color 0.3s, transform 0.3s;
+    color: gray;
+
+}
+
+.employees-filter-icon:hover {
+    color: rgb(27, 106, 218);
+    transform: scale(1.1);
+}
+
+
+
+
+.sort-icon {
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.sort-icon:hover {
+    color: rgb(27, 106, 218);
+    transform: scale(1.5);
+}

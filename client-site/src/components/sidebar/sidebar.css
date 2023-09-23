@@ -1,0 +1,132 @@
+.sidebar {
+    background-color: #ffffff;
+    color: #fff;
+    height: 100%;
+     overflow: hidden;
+    transition: width 0.3s ease;
+   
+    border-right: 2px #4343433f solid ;
+    position: relative;
+     display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+        
+}
+
+.open {
+   width:18px;
+    overflow-y:relative;
+
+}
+
+.toggle-button{
+    color: #000000;
+    font-size: 22px;
+    top: 50%;
+    cursor: pointer;
+    position: relative;
+    transition: left 0.3s ease;
+}
+
+.toggle-button:hover {
+    color: rgb(27, 106, 218);
+        transform: scale(1.1);
+}
+
+.toggle-button-close {
+    color: #000000;
+    font-size: 22px;
+    top: 50%;
+    cursor: pointer;
+    position: absolute;
+    transform: translateY(-50%);
+    transition: left 0.3s ease;
+}
+
+.toggle-button-close:hover {
+    color: rgb(27, 106, 218);
+   
+}
+
+.vertical-line {
+    width: 2px;
+    background-color: #ddd;
+    height: 100%;
+    margin-left: 20px;
+} 
+
+
+
+.wrapper {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.sidebar-header {
+    padding: 20px;
+    text-align: center;
+}
+
+.sidebar h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.nav-links {
+    list-style: none;
+    padding: 0;
+}
+
+.nav-item {
+    padding: 10px 20px;
+    margin-bottom: 20px;
+  
+}
+
+.admin-nested-nav-item {
+    margin:20px  0px;
+}
+
+.admin-nav-item {
+    padding: 0px 20px;
+    margin-bottom: 20px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #484848;
+    display: block;
+    font-size: 22px;
+    transition: background-color 0.3s;
+    width: 150px;
+}
+
+.nav-link:hover {
+    background-color: #F4F4F4;
+    border-radius: 10px;
+
+    cursor: pointer;
+}
+
+.admin-nav-link{
+    text-decoration: none;
+        color: #484848; 
+        display: block;
+        font-size: 22px;
+        transition: background-color 0.3s;
+        width: 110px;
+}
+
+.admin-nav-link:hover {
+        background-color: #F4F4F4;
+        border-radius: 10px;
+}
+
+.home-icon {
+ margin-right: 12px;
+color: #484848;
+}
+
+
+

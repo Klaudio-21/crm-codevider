@@ -1,0 +1,71 @@
+.deadline-container{
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+        background-color: #FFFFFF;
+        border-radius: 10px;
+        outline-style: none;
+        
+        transition: all 0.3s ease;
+        overflow: hidden;
+}
+
+.scrollable-table-container {
+    margin-left: 7%;
+    margin-top: 3%;
+    max-height: 290px;
+    width: 360px;
+    overflow-y: auto;
+    position: relative;
+ 
+}
+
+.scrollable-table-container table {
+    width: 100%;
+    table-layout: fixed;
+    border-collapse: collapse;
+}
+
+.scrollable-table-container th,
+.scrollable-table-container td {
+    padding: 8px;
+    text-align: left;
+}
+
+.time {
+    padding-top: 10px;
+    padding-left: 70px;
+    text-align: center;
+    margin-left: 10px;
+}
+.name {
+    padding-top: 10px;
+    padding-left: 8px;
+        text-align: center;
+        margin-left: 10px;
+}
+
+ .thead {
+    position: sticky;
+    top: 0;
+    text-align: center;
+    z-index: 1;
+  
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+}
+
+.deadline td {
+    text-align: center;
+    border-bottom: 1px solid #f4f4f4;
+    padding-top: 20px;
+}
+
+.deadline th {
+    text-align: center;
+}
+
+.deadline-container td:nth-child(2) {
+    color: red;
+}
+

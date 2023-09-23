@@ -1,0 +1,8 @@
+.settings {
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    font-size: 15px;
+    margin-top: 10px;
+}
+

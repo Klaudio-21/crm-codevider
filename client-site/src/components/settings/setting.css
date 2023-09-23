@@ -1,0 +1,39 @@
+.settings-container {
+    left: 260px;
+    background-color: bisque;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    transition: all 0.3s ease;
+}
+
+
+.settings-title {
+    font-size: 16px;
+    margin-bottom: 20px;
+    transition: all 0.3s ease;
+}
+
+.settings-section {
+    background-color: #F5F5F5;
+    border-radius: 8px;
+    padding: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.settings-section:hover {
+    background-color: #E0E0E0;
+}
+
+.settings-section-heading {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+    transition: all 0.3s ease;
+}
+
+.settings-section-description {
+    font-size: 16px;
+    color: #666;
+    margin-top: 5px;
+}

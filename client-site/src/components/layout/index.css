@@ -1,0 +1,39 @@
+.container {
+  
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 0.15fr auto ;
+    grid-template-rows: 0.1fr auto;
+    grid-template-areas:
+        "nav nav  "
+        "sidebar main ";
+ 
+}
+
+nav {
+ 
+    grid-area: nav;
+    background-color: black;
+     height: fit-content;
+  
+    
+}
+
+main {
+    background-color: rgb(144, 129, 158);
+    grid-area: main;
+    /* height: 100%;
+    
+  overflow-x: hidden;
+*/
+}
+
+#sidebar {
+    background-color: rgb(210, 96, 96);
+    grid-area: sidebar;
+ width: fit-content;
+}
+
+
+
+

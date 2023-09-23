@@ -7,7 +7,7 @@ const bodyParser = require('body-parser');
 const AppError = require('utils/appError');
 const globalErrorHandler = require('./controllers/errorController');
 const routerController = require('./controllers/routerController');
-const connectDB = require('./config/db');
+const connectDB = require('./server-side/config/db');
 const helmet = require('helmet');
 const cors = require('cors');
 require('colors')

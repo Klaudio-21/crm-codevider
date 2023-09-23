@@ -1,0 +1,22 @@
+.custom-textfield {
+
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+}
+
+.custom-textfield:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+
+label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 6px;
+    color: #333;
+}

@@ -1,0 +1,14 @@
+.ring-chart-container {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    outline-style: none;
+  
+    transition: all 0.3s ease;
+}
+
+.ring-chart-title {
+    margin-left: 33%;
+    margin-top: 5%;
+    color: #ACACAC;
+}

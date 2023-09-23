@@ -1,0 +1,88 @@
+.db-container-table {
+    display: grid;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px auto;
+   
+   
+    overflow: hidden;
+
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+
+.db-table {
+    overflow: scroll;
+   
+    transition: all 0.3s ease;
+}
+
+.db-h4 {
+    margin-left: 10px;
+    font-size: 20px;
+    
+}
+
+.db-th {
+    font-family: serif;
+    font-size: 12px;
+    padding: 10px;
+    font-weight: bold;
+    color: #ACACAC;
+}
+
+.db-th:nth-child(1) {
+    text-align: left;
+    padding: 10px;
+}
+
+.db-th:nth-child(2) {
+    text-align: left;
+    padding: 10px;
+}
+
+.db-th:nth-child(3) {
+    text-align: right;
+    padding: 10px;
+}
+
+.db-th:nth-child(4) {
+    text-align: right;
+    padding: 10px;
+}
+
+.db-td:nth-child(1) {
+    text-align: left;
+    padding: 10px;
+}
+
+.db-td:nth-child(2) {
+    text-align: left;
+    padding: 10px;
+}
+
+.db-td:nth-child(3) {
+    text-align: right;
+    padding: 10px;
+}
+
+.db-td:nth-child(4) {
+    text-align: right;
+    padding: 10px;
+}
+
+.db-td:nth-child(4) {
+    font-weight: bold;
+    color: #17A921;
+}
+
+.db-tr:hover {
+    background-color: #F0F0F0;
+}
+
+.db-table-header {
+    display: flex;
+    justify-content: space-between;
+}

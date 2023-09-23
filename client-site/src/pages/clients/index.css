@@ -1,0 +1,8 @@
+.clients-page-table {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    background-color: rgb(27, 181, 199);
+    margin-top: 20px;
+}

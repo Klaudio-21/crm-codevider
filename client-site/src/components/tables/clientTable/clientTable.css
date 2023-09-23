@@ -1,0 +1,104 @@
+
+.client-table-container {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+    margin: left 50%;
+    ;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    border-radius: 10px;
+    width: 742.59px;
+}
+
+.client-table {
+    background-color: rgb(255, 255, 255);
+    border: 0.5px solid #ddd;
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 7px;
+
+}
+
+.table-tr-clients td {
+    padding-left: 18px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: rgb(255, 255, 255);
+    border-bottom: 0.5px solid #ddd;
+}
+
+.clients-edit-icon {
+    margin-right: 5 px;
+    color: rgba(12, 12, 12, 0.667);
+    font-size: 20px;
+
+}
+
+.clients-delete-icon {
+    color: rgba(12, 12, 12, 0.667);
+    font-size: 20px;
+}
+
+.clients-delete-icon:hover {
+    color: rgba(255, 0, 0, 0.603);
+    cursor: pointer;
+}
+
+.clients-edit-icon:hover {
+    color: rgba(54, 115, 150, 0.822);
+    cursor: pointer;
+}
+
+
+
+.client-table th {
+    border-bottom: 1px solid #ddd;
+    padding: 18px;
+    text-align: left;
+
+}
+
+.client-title {
+    display: inline;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.client-pagination {
+    align-items: end;
+    display: flex;
+    justify-content: end;
+    margin-top: 5px;
+}
+
+.client-table-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.clients-filter-icon {
+    font-size: 20px;
+    margin-left: 350px;
+    cursor: pointer;
+    transition: color 0.3s, transform 0.3s;
+    color: gray;
+}
+
+.clients-filter-icon:hover {
+    color: rgb(27, 106, 218);
+    transform: scale(1.1);
+}
+
+.sort-icon {
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.sort-icon:hover {
+    color: rgb(27, 106, 218);
+    transform: scale(1.5);
+}

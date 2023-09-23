@@ -1,0 +1,29 @@
+.employee-db-container {
+  
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    padding: 20px;
+  
+    margin-top: 2%;
+    transition: all 0.3s ease;
+}
+
+.employee-db-header {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+   
+    transition: all 0.3s ease;
+}
+
+.db-employees {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.db-text p {
+    margin: 5px;
+}

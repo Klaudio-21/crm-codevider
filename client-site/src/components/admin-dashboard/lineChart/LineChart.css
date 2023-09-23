@@ -1,0 +1,11 @@
+.chart-one-container {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    outline-style: none;
+overflow: hidden;
+    transition: all 0.3s ease;
+}
+.chart-title {
+    margin-left: 20%;
+}

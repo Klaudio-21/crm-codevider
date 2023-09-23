@@ -1,0 +1,81 @@
+.login-form {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 200px;
+    width: 700px;
+    background-color: rgba(0, 0, 0, 0.204);
+    border-radius: 20px;
+}
+
+.textField-style {
+    width: 500px;
+    height: 35px;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 9px;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.underline {
+    width: 500px;
+    margin-top: 10px;
+    height: 1.5px;
+    background: rgba(0, 0, 0, 0.151);
+    border-radius: 9px;
+}
+
+.text {
+    color: rgba(0, 0, 0, 0.699);
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.input {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 480px;
+    height: 80px;
+    border-radius: 6px;
+}
+
+.inputs {
+    margin-top: 55px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.remember-me {
+    display: flex;
+    margin-left: 115px;
+}
+
+.remember-me-checkbox {
+    font-size: 15.5px;
+}
+
+.submit-b {
+    margin: 30px auto;
+    display: table;
+}
+
+.submit-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 220px;
+    height: 59px;
+    color: white;
+    background: rgba(0, 0, 0, 0.547);
+    border-radius: 50px;
+    font-size: 17px;
+    font-weight: 700;
+    cursor: pointer;
+}

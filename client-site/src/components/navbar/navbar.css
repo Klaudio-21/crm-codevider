@@ -1,0 +1,31 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    background-color:white;
+    color: white;
+   border-bottom: 2px solid #ddd;
+}
+
+.user-photo {
+width: 200px;
+    height: 50px;
+    margin-right: 10px;
+   
+}
+
+.logout-button {
+    background-color: blue;
+    border: 2px solid black;
+    color: white;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    padding: 5px 10px;
+ 
+}
+
+.logout-button svg {
+    margin-right: 0px;
+}
